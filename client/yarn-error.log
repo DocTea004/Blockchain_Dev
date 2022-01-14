@@ -1,0 +1,45 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\NR-AUDIT-U\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react-icons
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\NR-AUDIT-U\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\NR-AUDIT-U\AppData\Roaming\npm;C:\ProgramData\fab\GitHubDesktop\bin;C:\Users\NR-AUDIT-U\AppData\Local\GitHubDesktop\bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\NR-AUDIT-U\Web_DEvelopment\Blockchain_Dev\client\node_modules\esbuild-windows-64\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "krypt",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-react": "^1.0.7",
+      "autoprefixer": "^10.4.1",
+      "postcss": "^8.4.5",
+      "tailwindcss": "^3.0.8",
+      "vite": "^2.7.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
